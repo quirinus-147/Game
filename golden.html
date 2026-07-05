@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)file:///C:/Users/yangy/Downloads/__%20(2).html -->
+<!-- saved from url=(0046)file:///C:/Users/yangy/Downloads/__%20(5).html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -128,7 +128,7 @@ button:hover {
 </style></head>
 <body>
 
-<tw-storydata name="金色" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="81EFCC0F-F9AF-4EFB-A1E9-6C13A0753337" options="" tags="" zoom="1" hidden=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 全局样式 - 白底 + 宋体 + 偏绿文字 */
+<tw-storydata name="金色" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="81EFCC0F-F9AF-4EFB-A1E9-6C13A0753337" options="" tags="" zoom="0.3" hidden=""><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* 全局样式 - 白底 + 宋体 + 偏绿文字 */
 tw-story {
     background-color: #ffffff;
     font-family: "宋体", "SimSun", "Times New Roman", serif;
@@ -250,7 +250,7 @@ button:hover {
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 </script><tw-passagedata pid="1" name="段落1" tags="" position="700,250" size="100,100">
-阅读须知：本文章作为《美国老爹》衍生同人，本人并不拥有这些角色。文章内可能涉及暴力、色情、非自愿、拆配、拉郎、ooc、原创角色戏份过多的内容，本文部分指令内容涉及AI辅助写作，但文本部分纯人工撰写。本文设定主控对世界观毫无了解，所以可能会有部分的想法和行为偏差，请多加谅解。
+阅读须知：本文章作为《美国老爹》衍生同人，本人并不拥有这些角色。文章内可能涉及暴力、色情、毒品描写、性倒错、非自愿、拆配、拉郎、ooc、原创角色戏份过多的内容，本文部分指令内容涉及AI辅助写作，但文本部分纯人工撰写。本文设定主控对世界观毫无了解，所以可能会有部分的想法和行为偏差，请多加谅解。
 
 (link: "同意")[
   (goto: "段落2")
@@ -895,10 +895,14 @@ $player_name小姐，你怎么想？你愿意和她们生活在一起吗？
 你想去电视台工作吗？她说，我之前在那边办过节目，风生水起，现在还有联系呢，那边要招一个临时发言人。
 说完这句话后，她好像就和说错话一样。但是又点了点头，你去吧，去了就明白了，不合适再换嘛，雷蒙德其实人挺好的。
 (link: "继续")[(goto: "段落39")]
-</tw-passagedata><tw-passagedata pid="52" name="段落50" tags="" position="1200,3225" size="100,100">她看起来有点失望，但确实说，如果你一个人住的话，事业真的是很重要的一部分。她问你有什么擅长的地方，你有点想不起来了。
-你想去电视台工作吗？她说，我之前在那边办过节目，风生水起，现在还有联系呢，那边要招一个临时发言人。
-说完这句话后，她好像就和说错话一样。但是又点了点头，你去吧，去了就明白了，不合适再换嘛，雷蒙德其实人挺好的。
-(link: "继续")[(goto: "段落39")]
+</tw-passagedata><tw-passagedata pid="52" name="段落50" tags="" position="1200,3225" size="100,100">天哪！弗兰辛的双手紧紧攥着你的双手，哪怕是这样，你也认真看了，真是不可思议，是真的不可思议。
+你没有说其实你对喝那么多酒不感兴趣，而且谈话节目的一些东西令人感到厌倦，弗兰辛还是赶紧把你拉过来，给你倒了两杯含羞草酒。
+你觉得酒的味道确实还不错，喝起来像是果汁很好入口。弗兰辛看到你轻微的红晕，开始不再讲述节目的事。转而讲述他们家里，有一间阁楼，车库和树屋，树屋是她的儿子史蒂夫和朋友玩的地方，那里她每次上去也就仅限于送点食物。
+(set: $attic to 1)
+
+(link: "和她逛逛家里")[(goto: "段落67")]
+(link: "提议和她去树屋看看")[(goto: "段落71")]
+(link: "和她一起做饭")[(goto: "段落72")(set: $dinner_seat to "弗兰辛")]
 </tw-passagedata><tw-passagedata pid="53" name="段落51" tags="" position="1325,3225" size="100,100">格雷格呀，我之前和他一起共事过，就是因为泰瑞走了，他们刚搬过来的时候，就在这里当主持人，然后现在孟菲斯又代了格雷格的职，还是在频道3播新闻啊。这些话你跟听怀特夫人说的也大差不差，她说他有一个女儿莉比还是她的孩子。
 (if: $gender is "B" or $gender is "C")[
 你全然扫视着史密斯夫人，也许莉比的脸就是随了她的。
@@ -910,7 +914,7 @@ $player_name小姐，你怎么想？你愿意和她们生活在一起吗？
 (link: "那我去找格雷格吧")[(goto: "段落73")]
 (link: "我还是更想做你的朋友")[(goto: "段落66")]
 ](else:)[
-要不你去和格雷格约会吧。弗兰辛摆手却说，他有像你这样的一个先生也很好，哈哈，你不要放心上了。
+要不你去和格雷格约会吧。弗兰辛摆手却说，他有像你这样的一个先生也很好，哈哈，你不要放心上了。]
 
 (link: "也许我想去")[
   (set: $date to $date + (a: "Cobin"))
@@ -2546,7 +2550,7 @@ $(document).one(":passageend", function() {
 (link: "看看他的剧本")[(goto: "段落223")]
 (link: "上手捏他一下")[(goto: "段落224")]
 </tw-passagedata><tw-passagedata pid="166" name="段落154" tags="" position="1650,2600" size="100,100">晚上估计是吃塔可吧，杰夫说，这附近卖墨西哥卷饼的也不少。你问杰夫喜不喜欢吃墨西哥菜，他说也可以吧，如果在墨西哥的话，你琢磨着这话大概是不怎么喜欢。但事实上，他表达的意思远远不是这个。
-事实上，通常是史密斯夫人做什么我就吃什么，他说，你想他毕竟也不用成为家庭主夫，这些侄子都落不到他头上，那究竟他是干什么的，你也不知道该怎么想。
+事实上，通常是史密斯夫人做什么我就吃什么，他说，你想他毕竟也不用成为家庭主夫，这些职责都落不到他头上，那究竟他是干什么的，你也不知道该怎么想。
 (link: "吃饭")[(goto: "段落147")]
 </tw-passagedata><tw-passagedata pid="167" name="段落155" tags="" position="1650,2900" size="100,100">他的妻子是我最好的朋友，我之前有一些别的朋友，但是他们都死了，也许现在不会了，但这仍然让他的处境变得很怪异。
 你开始沉思为什么，这是否和把他变得无聊的是同一种东西，为什么会剩下他孤身一人，百无聊赖。他说他一开始也没有想过会这样，当他打那么多不同的零工，在集中切换的时候没有想过最后会这样，不过我们什么也不干，哪也不去，是他说自己刚醒来时说的话。
@@ -3019,6 +3023,539 @@ document.querySelector('tw-passage').style.background = 'transparent';
 (link: "看看风景")[(goto: "段落265")]
 ]
 (link: "找人聊聊天")[(goto: "段落266")]
+</tw-passagedata><tw-passagedata pid="198" name="段落167" tags="" position="700,375" size="100,100">你几乎是对此毫无意外了，这是所有科幻小说共同的命题之一，一个简明的归因，外星人的降临，你甚至无法保证这些外星人是否已经学会了英语，它们是否的目的，像这部小说里的一样单纯。
+你上网核实传言，这在小镇里早就铺开了，现在镇子里有两个外星人。但是也许研究并没有落到每一个人的头上，就那么几个人会挣得和外星人交流的名头。
+(set: $2aliens to true)
+你并不担心，因为末日的即将幸临此刻并没有风声，是谁拼了命要告诉你要你相信这里真的是有外星人，然后呢，逃开这个镇子吗？你也不明白。
+
+(link: "好了，那我逃开")[(goto: "段落267")]
+(link: "该死的这个书签不会是我自己掉的吧")[(goto: "段落268")]
+(link: "谁会遇见外星人")[(goto: "段落269")]</tw-passagedata><tw-passagedata pid="199" name="段落267" tags="" position="700,800" size="100,100">这是最直接的，可以令你离开远道而来的危机，传言并非毫无道理，只要你离开兰利瀑城，去到任何一个地方都不必再受此困扰，可是你曾受到什么外星人的困扰。你最清晰的记忆，还是在刚刚简单翻阅的故事上。
+究竟意味着什么？你不需要明白吧？
+外星人的降临，你从包里抽出一把伞，以应对窗外的雨天。
+在你眼底生了锈的时候，拖着蛇皮袋游荡在樱桃街上，去到一个不会受到外星人影响的城镇吧。
+(link: "结局")[(goto: "段落81")]
+</tw-passagedata><tw-passagedata pid="200" name="段落168" tags="" position="700,1225" size="100,100">你尝试寻找最早的一个过去，已经被你注定的一个过去，就像是已经在你面前呈现出来的一样，对于个失忆的人而言，他们肯定你已经被固定的过去，你用语言将未来偏移到过去之前。
+你在书籍社群里并无法找到对于该语言过密的解读内容，他们将全部精力用于凝视小说所揭示的世界体系，将过去与未来并置。但你的记忆没有起源和终局，你真的能弄明白吗，在咿呀呀的一片混沌中。
+在等待词语可能性中没有的未来
+过去没有等待这个词的，因为未来我已经知道你说什么了，我已经知道你要说什么，未来时我已经知道你过去说了什么。
+嘿，我以为你们本来要讲的是一个有关印第安人的笑话。
+(set: $ability to $ability + (a: "非线性语言"))
+你过去是一个发言人，你即将永远失业下去，这里是你的辞职信，你被遣散了，还没有有人敢要你。这个真相似乎很悲伤，你即将面临的并不是任何的宏大命运，就是这个吗？
+你之前为文森特·萨克工作，你是他的发言人，他是一个政客一个总统竞选者，他代表哪个政党呢？
+(set: $known to $known + (a: "Vincent"))
+(set: $resignation_letter_before to true)
+
+(link: "我并不需要更多真相了")[(goto: "段落270")]
+(link: "书签是我自己掉的吗")[(goto: "段落268")]
+(link: "至少未来我没饿死")[(goto: "段落271")]
+</tw-passagedata><tw-passagedata pid="201" name="段落270" tags="" position="825,1225" size="100,100">过去根本没什么可怕的，哪怕因为落选当时的咨询不可避免的受到一些扭曲，但也不完全是了无音讯，你向下翻了很久。看到萨克先生，你通过相关内容查到你们机构的名字，然后点开网址你的名字已经不再当任的团队当中，可你搜索你的名字还可以点开几条咨询，那就是你的脸。
+如果你早些知道这个，那你现在为什么要沦陷，你总是觉得有人赌你不敢搜自己的名字，因为等你一切都知道了，你也就发现没什么。
+就像是一圈绳结，在明显更突出的新闻中报导了当时的竞选暴乱，可你知道没有一次不是这样的，也许这件事情倒是是你发挥不当，导致自己失职，好吧，好吧。
+想到过去，想到未来，你说好难过。
+
+(link: "找海莉聊聊天")[(goto: "段落272")]
+(link: "找塔特尔吧")[(goto: "段落273")]
+</tw-passagedata><tw-passagedata pid="202" name="段落169" tags="" position="700,1350" size="100,100">你不知道，明天不可预料，这个结论是你在后天得出的，但是你的明天未免不曾有过可预料的地方，因为第二天什么也没发生。
+你的人生已经定性了，因为不可预料的事情也没有那么多，唯一能预测明天的东西，恐怕是天气预报吧，你打开天气频道，孟菲斯再次强调，最近会有寒潮，一定注意保暖，你倒觉得没什么，外面天确实很冷了，而且未来几天的预测并不比现在低多少，但到时候会有一些预警，因为持续的低温可能会影响社会秩序，可能吧，希望不要影响水电供给。
+这么说冰岛要成为世界上最暴乱的国家了，因为他们没有麦当劳吧。
+你决定买一个汉堡吃，当你带着外带出门的时候，确实是冬天了啊，你应该在里面吃的，你看到孟菲斯正在出外景，你问孟菲斯，麦当劳里面不会出事了吧，他问你说，真的？他眼睛都睁大了，肯定还是出事更值得报道吧，你想，如果真的出事，也就是他说的因为低温而引发的暴乱。
+你想一起来聊聊吗？反正我快下班了。
+
+(link: "回去吃麦当劳吗")[
+  (either:
+    (goto: "段落274"),
+    (goto: "段落275")
+  )
+]
+(link: "不了，谢谢")[(goto: "段落248")]
+</tw-passagedata><tw-passagedata pid="203" name="段落171" tags="" position="700,1775" size="100,100">他悬滞着，不过几乎是应许了，他说希望你吃得好，可你根本就不在乎吃什么，搬过去和他一起住自然是很令人欣慰的一件事，无论发生什么都可以，只要你们一同经历着在他的底下依偎，你就说不用担心房租之类的事情。
+在他自己的问题上，他既然已经这样提出，也就只能邀请你同居，好减轻你并不存在的生活负担，只是没想到这事就发生的这么快。
+你说你要先回家，过两天再搬过来，其实无论如何，你是要搬过去的，你为什么不今天和他一起打车回去呢？于是你们叫车，一起到他的屋子里，你说你走回去。
+怎么着，要进了他的房间，有一次他邀请你来，你转了一圈，早就选定了自己要住的房间，然后试探他，他才会邀请你睡下，下次你才能带东西来，你们就算正式同居了。
+这些都还没做，等下次吧，等下次他邀请你来。
+
+(link: "回家")[(goto: "段落276")]
+</tw-passagedata><tw-passagedata pid="204" name="段落172" tags="" position="825,1775" size="100,100">你说要和他一起去查明，之前是为什么，你从哪里凭空得到了能支持你生活的钱呢？格雷格并不厌弃你的懒惰和无力，他只是对即将到来的卷挟着你的他的生活感到好奇。
+既然如此，他和你说，你平常都从哪里来的钱？别人通过贝宝直接给我邮箱转的帐啊，你说我每周打开就有入账。
+那你正好可以看给你打的邮箱呀，格雷格说。你说你查到这是一个临时邮箱，你也没有什么办法，可是转账已经持续一段时间了。
+究竟是谁来给你钱呢？既然这是一个人名命名的邮箱，你不如直接查。文森特·萨克，嘿，这是谁？怎么以他的名义给你发钱。
+你不认识他吗，格雷格富有挑逗性的说是你的前男友吗？恰恰相反，你和文森特之前共事过一段时间，你只要轻而易举地查新闻就能查到这里。
+(set: $resignation_letter to true)
+你之前在政府机构工作啊，你会被选择副总统吗？你别瞎抬举我，你跟格雷格说，我应该是在政党公司吧。
+(set: $known to $known + (a: "Vincent"))
+我能查到当时总统竞选的相关新闻，我对文森特这个名字有印象，你想看看吗？格雷格问你。
+
+(link: "当然，我想")[(goto: "段落277")]
+(link: "我不想，这没有意义")[(goto: "段落278")]
+</tw-passagedata><tw-passagedata pid="205" name="段落277" tags="" position="700,2050" size="100,100">格雷格颇有意趣地望着你，他说很多的稿子他还留着，基本上都被他放在家里。然后到最后他实在忍不住了，他问你究竟有没有政治倾向。你说你都和他约会，我叫他这方面肯定不要担心，哪怕之前有，恐怕也都没有冒犯他的意思。他说这种选举他都看得很清楚啦，多少对文森特也是有点印象，因为他是共和党人。
+你是共和党人？你不可置信地看向格雷格，他们要拿下兰利瀑城媒体等化首先要拿下我们木屋共和党人。你不要假公济私了，你挥手撇了一下格雷格。
+你和格雷格就坐在后排，他说和你坐在一起真的相当不错，或许还可以看到过去的你，你从后视镜里看到他的头发泛着光泽。
+我可以牵你的手吗，你问他。他说，如果你在这个车上，如果我们如此紧密，一起向右倾怎么办？
+我都要跟你回家了，你说。
+(link: "到格雷格家")[(goto: "段落279")]
+</tw-passagedata><tw-passagedata pid="206" name="段落279" tags="" position="825,2050" size="100,100">他找出回播，那个就是文森特，你看着电视上被做了模糊处理的男人，旁边是他的发言人，那个穿着西装的就是你。
+你多像戴维德里克森啊，还是我像呢，格雷格说。
+格雷格说你肯定不是兰利人，不然你们什么都不清楚，你的发言类型就不像是当地人，你不可能什么都不知道。这个票区的票又不好拿，而且我失忆了，你说。
+(set: $amnesia to true)
+所以你之前的上司在你失忆之后还在给你坚持发工资？是工伤吧，你知道了什么他不得了的。
+
+(link: "我当时究竟知道了什么")[(goto: "段落280")]
+(link: "有钱拿不错了")[(goto: "段落281")]
+</tw-passagedata><tw-passagedata pid="207" name="段落280" tags="" position="700,2175" size="100,100">你实在不知道你当时是掌握了什么机密，而让对方如此好心好气地对待你。你尝试回发邮件，但是没有什么消息，而且对面似乎不是文森特本人，你当然对此可以理解，因为作为临时邮箱的肯定不是他主用的礼物箱，也许这个邮箱只负责和你联系，但是他可不会让你再一次掌握把柄。
+与此同时，你看见了一封来自祆教神秘跨维度与非理性生物部门的邮件内容是一封调查问卷。
+
+(link: "点开")[(set: $path to 1)(goto: "段落282")]
+</tw-passagedata><tw-passagedata pid="208" name="段落282" tags="" position="700,2400" size="100,100">&lt;div style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: '宋体', 'SimSun', serif;
+"&gt;
+
+  &lt;div id="survey-container" style="
+    background: #ffffff;
+    max-width: 640px;
+    width: 100%;
+    max-height: 90vh;
+    border-radius: 16px;
+    padding: 2rem 2rem 1.5rem;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: relative;
+  "&gt;
+
+    &lt;!-- 标题区域（会被红字替换） --&gt;
+    &lt;div id="title-area" style="
+      min-height: 4.5rem;
+      margin-bottom: 0.2rem;
+      transition: all 0.3s;
+      text-align: center;
+    "&gt;
+      &lt;h2 id="survey-title" style="
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #1a1a1a;
+        margin: 0 0 0.2rem 0;
+        font-family: '宋体', 'SimSun', serif;
+      "&gt;祆教神秘跨维度与非理性生物部门来访&lt;/h2&gt;
+
+      &lt;p id="survey-sub" style="
+        font-size: 0.8rem;
+        color: #888;
+        margin: 0;
+        font-family: '宋体', 'SimSun', serif;
+      "&gt;本调查问卷并不会收集您任何隐私信息，仅用作辅助人口普查工作。&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;!-- 题目容器 --&gt;
+    &lt;div id="question-area" style="
+      min-height: 180px;
+      margin: 1.5rem 0 1.5rem 0;
+      position: relative;
+    "&gt;&lt;/div&gt;
+
+    &lt;!-- 导航按钮 --&gt;
+    &lt;div style="
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #eee;
+      padding-top: 1rem;
+    "&gt;
+      &lt;button id="prev-btn" style="
+        background: #f0f0f0;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        color: #555;
+        cursor: pointer;
+        font-family: '宋体', 'SimSun', serif;
+        transition: background 0.2s;
+      "&gt;上一题&lt;/button&gt;
+
+      &lt;span id="progress-text" style="
+        font-size: 0.85rem;
+        color: #999;
+        font-family: '宋体', 'SimSun', serif;
+      "&gt;1 / 5&lt;/span&gt;
+
+      &lt;button id="next-btn" style="
+        background: #4a7af7;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        color: #fff;
+        cursor: pointer;
+        font-family: '宋体', 'SimSun', serif;
+        transition: background 0.2s;
+      "&gt;下一题&lt;/button&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script&gt;
+(function() {
+  var questions = [
+    {
+      id: 1,
+      text: '1. 请问您是否使用了辅助手段阅读此网页？',
+      options: ['是', '否']
+    },
+    {
+      id: 2,
+      text: '2. 您是否留心过在传言中外星人通常出没在哪里？',
+      options: ['街道', '天空', '实验室', '咖啡馆']
+    },
+    {
+      id: 3,
+      text: '3. 伴固信𠓨𠊛外行星空？',
+      options: ['唯', '空']
+    },
+    {
+      id: 4,
+      text: '4. 您认为种族歧视行为只存在于人类间吗？',
+      options: [
+        '这在碳基生物之间十分普遍',
+        '人类间99.9%的相似度根本无法造成性状差异所导致的歧视',
+        '这个世界上没有人类'
+      ]
+    },
+    {
+      id: 5,
+      text: '5. 您正在用什么语言答题？',
+      options: ['Lojban', "Na'vi", 'Esperanto', '𢖵']
+    }
+  ];
+
+  var currentIndex = 0;
+  var totalQuestions = questions.length;
+  var answers = {};
+  var titleHidden = false;
+  var q1Triggered = false;
+
+  var area = document.getElementById('question-area');
+  var prevBtn = document.getElementById('prev-btn');
+  var nextBtn = document.getElementById('next-btn');
+  var progressText = document.getElementById('progress-text');
+  var titleArea = document.getElementById('title-area');
+
+  // --- 标题区域显示红字 ---
+  function showRedInTitle(text) {
+    titleArea.innerHTML = `
+      &lt;div style="
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #cc0000;
+        font-family: 'Georgia', serif;
+        text-align: center;
+        text-shadow: 0 0 30px rgba(200,0,0,0.2);
+        animation: redPulse 0.15s ease 6 alternate;
+        padding: 0.3rem 0;
+      "&gt;${text}&lt;/div&gt;
+    `;
+    // 添加动画样式
+    var styleId = 'red-title-style';
+    var existing = document.getElementById(styleId);
+    if (existing) existing.remove();
+    var style = document.createElement('style');
+    style.id = styleId;
+    style.textContent = `
+      @keyframes redPulse {
+        0% { transform: scale(1); opacity: 0.9; }
+        50% { transform: scale(1.04); opacity: 1; color: #ff2200; }
+        100% { transform: scale(1); opacity: 0.9; color: #cc0000; }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  // --- 隐藏标题（清空） ---
+  function hideTitle() {
+    if (!titleHidden) {
+      titleHidden = true;
+      titleArea.innerHTML = '';
+    }
+  }
+
+  // --- 第3题：神秘文字水印 ---
+  function showMysticWatermark() {
+    var old = document.getElementById('mystic-watermark');
+    if (old) old.remove();
+
+    var watermark = document.createElement('div');
+    watermark.id = 'mystic-watermark';
+    watermark.style.cssText = `
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-5deg);
+      font-size: min(4vw, 2rem);
+      font-weight: bold;
+      color: rgba(180,50,50,0.10);
+      text-align: center;
+      line-height: 1.3;
+      pointer-events: none;
+      z-index: 0;
+      font-family: 'Georgia', serif;
+      letter-spacing: 0.1em;
+      user-select: none;
+      white-space: nowrap;
+    `;
+    watermark.textContent = '儋 㛪 , 慄 㦖 此 , 伴 群 𢖵 𣅶 妬 空 ?';
+    area.style.position = 'relative';
+    area.appendChild(watermark);
+  }
+
+  // --- 第3题闪烁跳跃 ---
+  function triggerQ3Jump() {
+    var labels = area.querySelectorAll('label');
+    labels.forEach(function(label, index) {
+      var delay = index * 80;
+      setTimeout(function() {
+        label.style.transition = 'transform 0.05s, color 0.05s';
+        label.style.transform = 'translate(' + (Math.random() * 14 - 7) + 'px, ' + (Math.random() * 14 - 7) + 'px)';
+        label.style.color = (Math.random() &gt; 0.5) ? '#cc0000' : '#1a1a1a';
+        setTimeout(function() {
+          label.style.transform = 'translate(0, 0)';
+          label.style.color = '#1a1a1a';
+        }, 160);
+      }, delay);
+    });
+  }
+
+  // --- 完成问卷 ---
+  function finishSurvey() {
+    var q3Answer = answers[3];
+    if (q3Answer === '唯') {
+      window._twineSetFlag('2aliens', true);
+    } else if (q3Answer === '空') {
+      window._twineSetFlag('2aliens', false);
+    }
+    var pathValue = window._twineGetFlag('path');
+    if (pathValue === 1) {
+      setTimeout(function() { window._twineGoto('段落283'); }, 1500);
+    }
+  }
+
+  // --- 渲染 ---
+  function renderQuestion(index) {
+    var oldWatermark = document.getElementById('mystic-watermark');
+    if (oldWatermark) oldWatermark.remove();
+
+    if (index &gt;= totalQuestions) {
+      area.innerHTML = `
+        &lt;div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:180px;text-align:center;color:#1a1a1a;"&gt;
+          &lt;div style="font-size:2.5rem;margin-bottom:1rem;"&gt;✅&lt;/div&gt;
+          &lt;p style="font-size:1.1rem;font-weight:bold;margin:0 0 0.5rem 0;"&gt;感谢您完成作答，&lt;/p&gt;
+          &lt;p style="font-size:1rem;margin:0;"&gt;我们已将相应资料上传。&lt;/p&gt;
+        &lt;/div&gt;
+      `;
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+      progressText.textContent = '已完成';
+      finishSurvey();
+      return;
+    }
+
+    prevBtn.style.display = 'inline-block';
+    nextBtn.style.display = 'inline-block';
+
+    var q = questions[index];
+    var selected = answers[q.id] || '';
+
+    var optionsHtml = q.options.map(function(opt, i) {
+      var checked = (selected === opt) ? 'checked' : '';
+      return `
+        &lt;label style="
+          display: flex;
+          align-items: center;
+          padding: 0.5rem 0.8rem;
+          margin-bottom: 0.3rem;
+          border-radius: 8px;
+          background: ${selected === opt ? '#eef3ff' : 'transparent'};
+          cursor: pointer;
+          transition: transform 0.1s, background 0.15s, color 0.1s;
+          font-size: 0.95rem;
+          color: #1a1a1a;
+          font-family: '宋体', 'SimSun', serif;
+          position: relative;
+          z-index: 1;
+        "&gt;
+          &lt;input type="radio" name="q${q.id}" value="${opt.replace(/"/g, '&amp;quot;')}" ${checked} style="
+            margin-right: 0.8rem;
+            width: 1.1rem;
+            height: 1.1rem;
+            accent-color: #4a7af7;
+            flex-shrink: 0;
+            cursor: pointer;
+          "&gt;
+          ${opt}
+        &lt;/label&gt;
+      `;
+    }).join('');
+
+    area.innerHTML = `
+      &lt;div style="font-weight:bold;font-size:1rem;color:#1a1a1a;margin-bottom:0.8rem;font-family:'宋体','SimSun',serif;position:relative;z-index:1;"&gt;
+        ${q.text}
+      &lt;/div&gt;
+      &lt;div style="display:flex;flex-direction:column;gap:0.1rem;position:relative;z-index:1;"&gt;
+        ${optionsHtml}
+      &lt;/div&gt;
+    `;
+
+    // --- 第3题：水印 + 闪烁 ---
+    if (index === 2) {
+      showMysticWatermark();
+      setTimeout(triggerQ3Jump, 300);
+      var jumpInterval = setInterval(function() {
+        if (currentIndex !== 2) { clearInterval(jumpInterval); return; }
+        triggerQ3Jump();
+      }, 2500);
+      window._q3Interval = jumpInterval;
+    } else {
+      if (window._q3Interval) { clearInterval(window._q3Interval); window._q3Interval = null; }
+    }
+
+    var radios = area.querySelectorAll('input[type="radio"]');
+    radios.forEach(function(radio) {
+      radio.addEventListener('change', function() {
+        if (this.checked) {
+          answers[q.id] = this.value;
+          if (q.id === 1) q1Triggered = false;
+        }
+      });
+    });
+
+    progressText.textContent = (index + 1) + ' / ' + totalQuestions;
+    prevBtn.style.opacity = (index === 0) ? '0.4' : '1';
+    prevBtn.style.pointerEvents = (index === 0) ? 'none' : 'auto';
+  }
+
+  // --- 导航 ---
+  function goTo(index) {
+    if (index &lt; 0 || index &gt; totalQuestions) return;
+    currentIndex = index;
+    renderQuestion(currentIndex);
+  }
+
+  function next() {
+    var q1Answer = answers[1];
+    // 第1题 → 第2题：触发红字
+    if (currentIndex === 0 &amp;&amp; q1Answer &amp;&amp; !q1Triggered) {
+      q1Triggered = true;
+      hideTitle();
+      var text = (q1Answer === '是') ? '我知道果然是' : '你是怎么看到的';
+      showRedInTitle(text);
+      setTimeout(function() {
+        goTo(currentIndex + 1);
+      }, 1200);
+      return;
+    }
+
+    if (currentIndex &gt;= totalQuestions - 1) {
+      goTo(totalQuestions);
+      return;
+    }
+    goTo(currentIndex + 1);
+  }
+
+  function prev() {
+    if (currentIndex &lt;= 0) return;
+    // 如果回到第1题，恢复原标题
+    if (currentIndex - 1 === 0) {
+      titleHidden = false;
+      titleArea.innerHTML = `
+        &lt;h2 id="survey-title" style="font-size:1.3rem;font-weight:bold;color:#1a1a1a;margin:0 0 0.2rem 0;font-family:'宋体','SimSun',serif;"&gt;祆教神秘跨维度与非理性生物部门来访&lt;/h2&gt;
+        &lt;p id="survey-sub" style="font-size:0.8rem;color:#888;margin:0;font-family:'宋体','SimSun',serif;"&gt;本调查问卷并不会收集您任何隐私信息，仅用作辅助人口普查工作。&lt;/p&gt;
+      `;
+    }
+    goTo(currentIndex - 1);
+  }
+
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); next(); }
+  });
+
+  window._twineSetFlag = function(flagName, value) {
+    var code = '(set: $' + flagName + ' to ' + JSON.stringify(value) + ')';
+    var tempHook = document.createElement('tw-hook');
+    tempHook.style.display = 'none';
+    document.querySelector('tw-passage').appendChild(tempHook);
+    window._harloweEval(code);
+    tempHook.remove();
+  };
+
+  window._twineGetFlag = function(flagName) {
+    try { return window._harloweEval('$' + flagName); } catch(e) { return undefined; }
+  };
+
+  window._twineGoto = function(passageName) {
+    setTimeout(function() {
+      window._harloweEval('(goto: "' + passageName + '")');
+    }, 1500);
+  };
+
+  renderQuestion(0);
+})();
+&lt;/script&gt;
+
+&lt;style&gt;
+#survey-container tw-link { display: none !important; }
+#survey-container .enchantment-link { display: none !important; }
+&lt;/style&gt;
+</tw-passagedata><tw-passagedata pid="209" name="段落283" tags="" position="975,3300" size="100,100">格雷格毫不意外，因为他也收到了，他问你，你觉得这份邮件和萨克先生有什么关系？因为他也收到了，所以你不好贸然回答，你本来觉得这会是给你贝宝邮钱的背后机构。
+你说这个机构肯定不是凭空问题，你问他有没有做最后的问题，很奇怪，他说还好吧，你不用英语嘛，你说里面没有英语，他说他就随便选了一个，反正是匿名的。
+真的吗？你知道在我们的传言里，我觉得外星人是在街道上，他是这么说的，我觉得我们已经见过了，而且这个问题已经足够引发美国商务局注意了。
+(if: $2aliens is true)[
+你说那好吧，也许外星人真的是一个迫切的威胁，而引发了如此广泛的关注，甚至需要被决定是否算入人口总数了。
+那为了闪避外星人，你搬进我家来吧，格雷格说，他怎么这么撩人？这一切看起来真的好有趣。
+向我保证这个什么机构不是你的名堂，你说。
+我还是认为那是工伤，说不定你以前就在这个机构上班，他们为了找你可是费尽心思。格雷格说
+
+(link: "好了，我和你住")[(set: $cohabit to "格雷格")(set: $romance to "格雷格")(goto: "段落284")]
+(link: "才不要，我回家了")[(goto: "段落276")]
+](else:)[
+你说不可能有外星人的，所有东西都是用于模糊的恶搞，你还是非常有探究精神的回信，但是仍然了无音讯。你上网查询这个机构，恐怕并非是同美国人口调查局有关，和中情局有关吧，你说，这是万圣节的恶作剧。格雷格倒是毫不意外，他说那你就不要管了，中情局在兰利的信用几乎是零。
+真的这么差吗？你不顾格雷格的劝阻，他说反正无所谓了，两个外星人的传言都是他们发出的。
+那你怎么那么上心？你问他。他给你播放第一次他和孟菲斯聊到这个新闻的样子，他们是戏谑的。他想证明给你看，他说他以后会多上心你，你觉得这全都是敷衍，但是又不是对他没意思。
+
+(link: "和格雷格同居")[(set: $cohabit to "格雷格")(set: $romance to "格雷格")(goto: "段落284")]
+(link: "给中情局打电话")[(set: $CIA to true)(goto: "段落285")]
+]
+</tw-passagedata><tw-passagedata pid="210" name="段落281" tags="" position="975,3550" size="100,100">你说你根本不在意，你说那又怎么样？你大概知道了文森特是谁，你只想和他在一起。
+(set: $romance to "格雷格")
+你说你不要刨根问底，只要有钱拿，只要这些钱是你的，你就可以改善生活。
+格雷格请你喝了杯酒，他居然搞不明白你的意思，他说是你说愿意和他调查这笔钱是哪里来的，可是你也只是用挑逗的口吻问我，我以为这是一个感情问题，于是我也只能这么对待。你说，这一切不过是为了拉近你们关系的骗局，而且天色已经这么晚了，你们刚吃完晚餐。
+你说你会尊重他，你问他是否是虚情假意，居然指的就是刚刚车上发生的事。才没有，在你愿意之后，他说他愿意。你和他舌吻后，他叫你就睡在他家。
+你登上二楼之后，他说你们都应该冷静一下。
+
+(link: "晚安")[(goto: "段落286")]
+(link: "我难过的无以复加")[(goto: "段落287")]
+</tw-passagedata><tw-passagedata pid="211" name="段落278" tags="" position="975,4800" size="100,100">你说只是在乎格雷格，你是为了和他约会而出门，你知道有这么个邮件，你也告诉他你接济的来路，哪怕是不明的，但也对此负有责任，你以为这些就够了。
+格雷格没有再说什么，他为了再避免你的愤慨，挽着你的手出门。你们上了车，他仍然没有松开你的手，只是和你坐在后排，又聊起文森特，说他当时是总统竞选人之一，但萨克不是兰利人，恐怕你也是外乡人。
+你搞不明他，格雷格在旁边和你差不多高，你觉得天色太黑了，车里面因为没有开灯也很黑，下次打长条轿车吧，你说，只是因为你记得这种车的灯总是亮的。那我就得坐在你对面，格雷格说。为什么不能无论如何都离得近点，不计较什么礼仪，只是为了坐在你旁边。
+你发现自己想要的真是太多了。
+到家之后，格雷格，希望你打开邮件，看看有没有新的入账，这肯定是不可能，但上次的也还没点掉，这个名叫文森特的账号孜孜不倦的用贝宝官方给你发的邮件提示。
+(link: "继续")[(goto: "段落281")]
 </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
@@ -3041,4 +3578,4 @@ h(Math,"asinh",xr.asinh,Math.asinh(1e300)===Infinity);h(Math,"atanh",xr.atanh,Ma
 
 
 
-<tw-story tags=""><tw-passage tags=""><tw-sidebar><tw-icon tabindex="0" alt="Undo" title="Undo" style="visibility: hidden;">↶</tw-icon><tw-icon tabindex="0" alt="Redo" title="Redo" style="visibility: hidden;">↷</tw-icon></tw-sidebar><br>阅读须知：本文章作为《美国老爹》衍生同人，本人并不拥有这些角色。文章内可能涉及暴力、色情、非自愿、拆配、拉郎、ooc、原创角色戏份过多的内容，本文部分指令内容涉及AI辅助写作，但文本部分纯人工撰写。本文设定主控对世界观毫无了解，所以可能会有部分的想法和行为偏差，请多加谅解。<br><tw-consecutive-br></tw-consecutive-br><tw-expression type="macro" name="link" return="changer"></tw-expression><tw-hook><tw-link tabindex="0" data-raw="">同意</tw-link></tw-hook><br><tw-consecutive-br></tw-consecutive-br><tw-expression type="macro" name="link" return="changer"></tw-expression><tw-hook><tw-link tabindex="0" data-raw="">不同意</tw-link></tw-hook></tw-passage></tw-story></body></html>
+<tw-story tags=""><tw-passage tags=""><tw-sidebar><tw-icon tabindex="0" alt="Undo" title="Undo" style="visibility: hidden;">↶</tw-icon><tw-icon tabindex="0" alt="Redo" title="Redo" style="visibility: hidden;">↷</tw-icon></tw-sidebar><br>阅读须知：本文章作为《美国老爹》衍生同人，本人并不拥有这些角色。文章内可能涉及暴力、色情、毒品描写、性倒错、非自愿、拆配、拉郎、ooc、原创角色戏份过多的内容，本文部分指令内容涉及AI辅助写作，但文本部分纯人工撰写。本文设定主控对世界观毫无了解，所以可能会有部分的想法和行为偏差，请多加谅解。<br><tw-consecutive-br></tw-consecutive-br><tw-expression type="macro" name="link" return="changer"></tw-expression><tw-hook><tw-link tabindex="0" data-raw="">同意</tw-link></tw-hook><br><tw-consecutive-br></tw-consecutive-br><tw-expression type="macro" name="link" return="changer"></tw-expression><tw-hook><tw-link tabindex="0" data-raw="">不同意</tw-link></tw-hook></tw-passage></tw-story></body></html>
